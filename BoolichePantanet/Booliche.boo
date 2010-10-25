@@ -19,7 +19,7 @@ class Jogo:
 			_pontos += p
 
 		if p == 10 and _jogada == 1:
-			_contaStrike += 2
+			_contaStrike = 2
 		else: 
 			if _ultimaJogada + p == 10 and _jogada == 2:
 				_contaStrike = 1
